@@ -7353,7 +7353,7 @@ ul.list {
 /** Types: Raised **/
 .section.section-raised,
 .sections.section-raised {
-  box-shadow: 0px 2px 4px 0px rgba(34, 36, 38, 0.12), 0px 2px 10px 0px rgba(34, 36, 38, 0.15); }
+  box-shadow: 0px 4px 8px 0px rgba(34, 36, 38, 0.1), 0px 4px 20px 0px rgba(34, 36, 38, 0.1); }
 
 /** Types: Vertical **/
 .section.section-v {
@@ -7538,16 +7538,9 @@ ul.list {
 
 /** Variations: Padded **/
 .section.section-padded {
-  padding: 1.5rem;
-  /* Padded vertical */ }
-  .section.section-padded.section-v {
-    padding-left: 0rem;
-    padding-right: 0rem; }
-
-.section.section-expadded {
   padding: 3rem;
   /* Padded vertical */ }
-  .section.section-expadded.section-v {
+  .section.section-padded.section-v {
     padding-left: 0rem;
     padding-right: 0rem; }
 
