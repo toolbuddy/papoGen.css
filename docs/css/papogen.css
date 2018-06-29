@@ -5942,6 +5942,18 @@ img.img {
 .img-rounded.img, .img-rounded.img > *, .img-rounded.imgs .img > * {
   border-radius: 0.3rem; }
 
+/** Variations: Circular **/
+.img-circular.imgs {
+  overflow: hidden; }
+  .img-circular.imgs .img,
+  .img-circular.imgs .img > * {
+    border-radius: 500rem; }
+.img-circular.img {
+  overflow: hidden; }
+  .img-circular.img,
+  .img-circular.img > * {
+    border-radius: 500rem; }
+
 /** Variations: Fluid **/
 .img-fluid.img,
 .img-fluid.img img,

@@ -68,6 +68,28 @@ img.img {
 }
 
 
+/** Variations: Circular **/
+
+.img-circular {
+    &.imgs {
+        overflow: hidden;
+        .img {
+            &,
+            >* {
+                border-radius: 500rem;
+            }
+        }
+    }
+    &.img {
+        overflow: hidden;
+        &,
+        >* {
+            border-radius: 500rem;
+        }
+    }
+}
+
+
 /** Variations: Fluid **/
 
 .img-fluid {
