@@ -1432,12 +1432,29 @@ h6.hdr {
  */
 /*** Icon ***/
 @font-face {
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
   font-family: 'Icons';
-  src: url("../icons/icons.eot");
-  src: url("../icons/icons.eot?#iefix") format("embedded-opentype"), url("../icons/icons.woff2") format("woff2"), url("../icons/icons.woff") format("woff"), url("../icons/icons.ttf") format("truetype"), url("../icons/icons.svg#icons") format("svg");
+  src: url("https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/themes/basic/assets/fonts/icons.eot");
+  src: url("https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/themes/basic/assets/fonts/icons.eot?#iefix") format("embedded-opentype"), url("https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/themes/basic/assets/fonts/icons.woff2") format("woff2"), url("https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/themes/basic/assets/fonts/icons.woff") format("woff"), url("https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/themes/basic/assets/fonts/icons.ttf") format("truetype"), url("https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/themes/basic/assets/fonts/icons.svg#icons") format("svg");
+  text-decoration: inherit;
+  text-transform: none; }
+/* Outline Icon */
+@font-face {
+  font-family: 'outline-icons';
+  src: url("https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/themes/default/assets/fonts/outline-icons.eot");
+  src: url("https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/themes/default/assets/fonts/outline-icons.eot?#iefix") format("embedded-opentype"), url("https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/themes/default/assets/fonts/outline-icons.woff2") format("woff2"), url("https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/themes/default/assets/fonts/outline-icons.woff") format("woff"), url("https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/themes/default/assets/fonts/outline-icons.ttf") format("truetype"), url("https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/themes/default/assets/fonts/outline-icons.svg#icons") format("svg");
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-decoration: inherit;
+  text-transform: none; }
+/* Brand Font */
+@font-face {
+  font-family: 'brand-icons';
+  src: url("https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/themes/default/assets/fonts/brand-icons.eot");
+  src: url("https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/themes/default/assets/fonts/brand-icons.eot?#iefix") format("embedded-opentype"), url("https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/themes/default/assets/fonts/brand-icons.woff2") format("woff2"), url("https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/themes/default/assets/fonts/brand-icons.woff") format("woff"), url("https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/themes/default/assets/fonts/brand-icons.ttf") format("truetype"), url("https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/themes/default/assets/fonts/brand-icons.svg#icons") format("svg");
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
   text-decoration: inherit;
   text-transform: none; }
 i.icon {
@@ -5155,17 +5172,6 @@ i.icon.youtube.play:before {
   content: "\f167"; }
 
 /** Outline Icons **/
-/* Outline Icon */
-/* Load & Define Icon Font */
-@font-face {
-  font-family: 'outline-icons';
-  src: url("../icons/outline-icons.eot");
-  src: url("../icons/outline-icons.eot?#iefix") format("embedded-opentype"), url("./../themes/default/assets/fonts/outline-icons.woff2") format("woff2"), url("./../themes/default/assets/fonts/outline-icons.woff") format("woff"), url("./../themes/default/assets/fonts/outline-icons.ttf") format("truetype"), url("./../themes/default/assets/fonts/outline-icons.svg#icons") format("svg");
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-decoration: inherit;
-  text-transform: none; }
 i.icon.outline {
   font-family: 'outline-icons'; }
 
@@ -5532,19 +5538,7 @@ i.icon.heart.empty:before {
 i.icon.star.empty:before {
   content: "\f089"; }
 
-/*******************************
-             Brand Icons
-  *******************************/
-/* Load & Define Brand Font */
-@font-face {
-  font-family: 'brand-icons';
-  src: url("../icons/brand-icons.eot");
-  src: url("../icons/brand-icons.eot?#iefix") format("embedded-opentype"), url("../icons/brand-icons.woff2") format("woff2"), url("../icons/brand-icons.woff") format("woff"), url("../icons/brand-icons.ttf") format("truetype"), url("../icons/brand-icons.svg#icons") format("svg");
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-decoration: inherit;
-  text-transform: none; }
+/*** Brand Icons ***/
 /* Brand Icon Font Family */
 i.icon.\35 00px,
 i.icon.accessible.icon,

@@ -111,7 +111,8 @@ $p-font-weight: 300;
 
 /*** Icon ***/
 
-$icons-path: '../icons' !default;
+$basic-icons-path: 'https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/themes/basic/assets/fonts/';
+$default-icons-path: 'https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/themes/default/assets/fonts/';
 $icons-style: normal;
 $icons-weight: normal;
 $icons-variant: normal;
