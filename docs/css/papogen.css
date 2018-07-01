@@ -1434,7 +1434,7 @@ h6.hdr {
 @font-face {
   font-family: 'Icons';
   src: url("https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/themes/basic/assets/fonts/icons.eot");
-  src: url("https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/themes/basic/assets/fonts/icons.eot?#iefix") format("embedded-opentype"), url("https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/themes/basic/assets/fonts/icons.woff2") format("woff2"), url("https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/themes/basic/assets/fonts/icons.woff") format("woff"), url("https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/themes/basic/assets/fonts/icons.ttf") format("truetype"), url("https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/themes/basic/assets/fonts/icons.svg#icons") format("svg");
+  src: url("https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/themes/basic/assets/fonts/icons.eot?#iefix") format("embedded-opentype"), url("https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/themes/basic/assets/fonts/icons.woff") format("woff"), url("https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/themes/basic/assets/fonts/icons.ttf") format("truetype"), url("https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/themes/basic/assets/fonts/icons.svg#icons") format("svg");
   text-decoration: inherit;
   text-transform: none; }
 /* Outline Icon */

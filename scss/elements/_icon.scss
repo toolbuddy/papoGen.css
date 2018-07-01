@@ -10,7 +10,6 @@
     font-family: 'Icons';
     src: url("#{$basic-icons-path}icons.eot");
     src: url("#{$basic-icons-path}icons.eot?#iefix") format('embedded-opentype'),
-    url("#{$basic-icons-path}icons.woff2") format('woff2'),
     url("#{$basic-icons-path}icons.woff") format('woff'),
     url("#{$basic-icons-path}icons.ttf") format('truetype'),
     url("#{$basic-icons-path}icons.svg#icons") format('svg');
