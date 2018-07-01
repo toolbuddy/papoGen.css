@@ -8,11 +8,12 @@
 
 @font-face {
     font-family: 'Icons';
-    src: url("#{$basic-icons-path}icons.eot");
-    src: url("#{$basic-icons-path}icons.eot?#iefix") format('embedded-opentype'),
-    url("#{$basic-icons-path}icons.woff") format('woff'),
-    url("#{$basic-icons-path}icons.ttf") format('truetype'),
-    url("#{$basic-icons-path}icons.svg#icons") format('svg');
+    src: url("#{$icons-path}icons.eot");
+    src: url("#{$icons-path}icons.eot?#iefix") format('embedded-opentype'),
+    url("#{$icons-path}icons.woff2") format('woff2'),
+    url("#{$icons-path}icons.woff") format('woff'),
+    url("#{$icons-path}icons.ttf") format('truetype'),
+    url("#{$icons-path}icons.svg#icons") format('svg');
     text: {
         decoration: inherit;
         transform: none;
@@ -24,12 +25,12 @@
 
 @font-face {
     font-family: 'outline-icons';
-    src: url("#{$default-icons-path}outline-icons.eot");
-    src: url("#{$default-icons-path}outline-icons.eot?#iefix") format('embedded-opentype'),
-    url("#{$default-icons-path}outline-icons.woff2") format('woff2'),
-    url("#{$default-icons-path}outline-icons.woff") format('woff'),
-    url("#{$default-icons-path}outline-icons.ttf") format('truetype'),
-    url("#{$default-icons-path}outline-icons.svg#icons") format('svg');
+    src: url("#{$icons-path}outline-icons.eot");
+    src: url("#{$icons-path}outline-icons.eot?#iefix") format('embedded-opentype'),
+    url("#{$icons-path}outline-icons.woff2") format('woff2'),
+    url("#{$icons-path}outline-icons.woff") format('woff'),
+    url("#{$icons-path}outline-icons.ttf") format('truetype'),
+    url("#{$icons-path}outline-icons.svg#icons") format('svg');
     font: {
         style: normal;
         weight: normal;
@@ -46,12 +47,12 @@
 
 @font-face {
     font-family: 'brand-icons';
-    src: url("#{$default-icons-path}brand-icons.eot");
-    src: url("#{$default-icons-path}brand-icons.eot?#iefix") format('embedded-opentype'),
-    url("#{$default-icons-path}brand-icons.woff2") format('woff2'),
-    url("#{$default-icons-path}brand-icons.woff") format('woff'),
-    url("#{$default-icons-path}brand-icons.ttf") format('truetype'),
-    url("#{$default-icons-path}brand-icons.svg#icons") format('svg');
+    src: url("#{$icons-path}brand-icons.eot");
+    src: url("#{$icons-path}brand-icons.eot?#iefix") format('embedded-opentype'),
+    url("#{$icons-path}brand-icons.woff2") format('woff2'),
+    url("#{$icons-path}brand-icons.woff") format('woff'),
+    url("#{$icons-path}brand-icons.ttf") format('truetype'),
+    url("#{$icons-path}brand-icons.svg#icons") format('svg');
     font: {
         style: normal;
         weight: normal;
